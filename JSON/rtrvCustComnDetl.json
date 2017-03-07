@@ -1,0 +1,85 @@
+{
+	"responseInfo": {
+		"reasons": [{
+			"code": "000",
+			"type": "0",
+			"traceCde": [],
+			"exAttrKeys": [],
+			"exAttrValues": [null]
+		}]
+	},
+	"extensions": [],
+	"custAcctAddress": {
+		"acctIdAddrDtl": [{
+			"acctIdr": {
+				"acctID": "4134 0500 0000 0568"
+			},
+			"cntacAddr": {
+				"addressDtl": {
+					"line1": "Aragon 103",
+					"city": "GROGUERRERO",
+					"prov": "Celaya",
+					"postalCde": "45678",
+					"suburb": "Central de abastos",
+					"cityCde": "1"
+				}
+			}
+		}, {
+			"acctIdr": {
+				"acctID": "4134 0600 0000 8982"
+			},
+			"cntacAddr": {
+				"addressDtl": {
+					"line1": "A ADX148",
+					"city": "CHSCHIAPAS",
+					"prov": "TXL UIRE",
+					"postalCde": "29010",
+					"suburb": "FACE AL",
+					"cityCde": "2"
+				}
+			}
+		}, {
+			"acctIdr": {
+				"acctID": "4912838010669531"
+			},
+			"cntacAddr": {
+				"addressDtl": {
+					"line1": "CD IDAACA16",
+					"city": "GROGUERRERO",
+					"prov": "TXOD LRO",
+					"postalCde": "40280",
+					"suburb": "BR E ATO",
+					"cityCde": "3"
+				}
+			}
+		}, {
+			"acctIdr": {
+				"acctID": "4912838606234161"
+			},
+			"cntacAddr": {
+				"addressDtl": {
+					"line1": "AVENIDA DE LAS PARTIDAS 2 19",
+					"city": "EM MEXICO",
+					"prov": "LERMA",
+					"postalCde": "52000",
+					"suburb": "LERMA DE VILLADA CENTRO",
+					"cityCde": "4"
+				}
+			}
+		}, {
+			"acctIdr": {
+				"acctID": "4912838606234328"
+			},
+			"cntacAddr": {
+				"addressDtl": {
+					"line1": "CONOCIDO 3874",
+					"city": "EM MEXICO",
+					"prov": "TOLUCA",
+					"postalCde": "50000",
+					"suburb": "CENTRO",
+					"cityCde": "5"
+				}
+			}
+		}]
+	}
+}

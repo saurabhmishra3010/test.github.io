@@ -1,0 +1,15 @@
+{
+	"Name" : "Nombre",
+	"DOB" : "Fecha de nacimiento",
+	"personalDetailsTitle" : "Detalles Personales",
+	"contactDetailsTitle" : "Detalles de contacto",
+	"accountId" : "ID de la cuenta",
+	"addrline1" : "Direccion Linea 1",
+	"addressDetailsTitle" : "Detalles de direccion",
+	"city" : "Ciudad",
+	"prov" : "Provincia",
+	"postalcode" : "codigo postal",
+	"suburb" : "Suburbio",
+	"cityCde" : "Codigo de ciudad",
+	"updateDetailsTitle" : "Actualizar detalles"
+}

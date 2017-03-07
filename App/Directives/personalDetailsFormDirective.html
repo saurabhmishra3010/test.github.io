@@ -1,0 +1,27 @@
+<div class="container" ng-init="vm.initialize()">
+	<div class="jumbotron">
+		<form class="form-horizontal">
+			<fieldset>
+				<legend>{{vm.translatedData.updateDetailsTitle}}</legend>
+				<div class="form-group">
+					<label for="inputName" class="col-lg-2 control-label">{{vm.translatedData.Name}}</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="inputName"
+							value="{{vm.details.custPrsnDetl.custPrsnInfo.custNames[0].fullName}}">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputdob" class="col-lg-2 control-label">{{vm.translatedData.DOB}}</label>
+					<div class="col-lg-10">
+						<input type="text" class="form-control" id="inputdob"
+							value="{{vm.details.custPrsnDetl.custPrsnInfo.dateofBirth}}">
+					</div>
+				</div>
+				<div class="form-group">
+					<button type="button" ng-click="vm.updateDetails()"
+						class="btn btn-primary">{{vm.translatedData.updateDetailsTitle}}</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+<div class="container" ng-init="vm.initialize()">
+	<div class="jumbotron">
+		<h3>{{vm.translatedData.contactDetailsTitle}}</h3>
+		<div ng-repeat="addr in vm.details.custAcctAddress.acctIdAddrDtl">
+			<h4>{{vm.translatedData.addressDetailsTitle}}</h4>
+			<div class="well well-sm">
+				<label for="accountid">{{vm.translatedData.accountId}} : </label> <span
+					id="accountid">{{addr.acctIdr.acctID}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="addrline1">{{vm.translatedData.addrline1}} : </label> <span
+					id="addrline1">{{addr.cntacAddr.addressDtl.line1}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="addrline1">{{vm.translatedData.city}} : </label> <span
+					id="city">{{addr.cntacAddr.addressDtl.city}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="addrline1">{{vm.translatedData.prov}} : </label> <span
+					id="prov">{{addr.cntacAddr.addressDtl.prov}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="postalcode">{{vm.translatedData.postalcode}} : </label>
+				<span id="postalcode">{{addr.cntacAddr.addressDtl.postalCde}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="suburb">{{vm.translatedData.suburb}} : </label> <span
+					id="suburb">{{addr.cntacAddr.addressDtl.suburb}}</span>
+			</div>
+			<div class="well well-sm">
+				<label for="cityCde">{{vm.translatedData.cityCde}} : </label> <span
+					id="cityCde">{{addr.cntacAddr.addressDtl.cityCde}}</span>
+			</div><hr>
+		</div>
+		<button type="button" ng-click="vm.updateDetails()"
+			class="btn btn-primary">{{vm.translatedData.updateDetailsTitle}}</button>
+	</div>
+</div>

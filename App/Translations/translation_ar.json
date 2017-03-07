@@ -1,0 +1,15 @@
+{
+	"Name" : "اسم",
+	"DOB" : "تاريخ الولادة",
+	"personalDetailsTitle" : "تفاصيل شخصية",
+	"contactDetailsTitle" : "رمز المدينة",
+	"accountId" : "رقم الحساب",
+	"addrline1" : "العنوان الأول",
+	"addressDetailsTitle" : "تفاصيل العنوان",
+	"city" : "مدينة",
+	"prov" : "المحافظة",
+	"postalcode" : "الرمز البريدي",
+	"suburb" : "ضاحية",
+	"cityCde" : "رمز المدينة",
+	"updateDetailsTitle" : "تفاصيل التحديث"
+}

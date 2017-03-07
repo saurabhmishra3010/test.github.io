@@ -1,0 +1,15 @@
+{
+	"Name" : "Name",
+	"DOB" : "Date of Birth",
+	"personalDetailsTitle" : "Personal Details",
+	"contactDetailsTitle" : "Contact details",
+	"accountId" : "Account Id",
+	"addrline1" : "Address Line 1",
+	"addressDetailsTitle" : "Address Details",
+	"city" : "City",
+	"prov" : "Province",
+	"postalcode" : "Postal Code",
+	"suburb" : "Suburb",
+	"cityCde" : "City Code",
+	"updateDetailsTitle" : "Update Details"
+}

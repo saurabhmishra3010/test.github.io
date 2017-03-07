@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Communications</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-resource.js"></script>
+
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular-cookies.js"></script>
+
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.13.1/angular-translate.js"></script>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+<script src="App/app.js"></script>
+
+<script src="App/Controllers/contactDetailsController.js"></script>
+
+<script src="App/Controllers/personalDetailsController.js"></script>
+
+<script src="App/Controllers/parentController.js"></script>
+
+<script src="App/Services/rtrvCustPrsnDetlService.js"></script>
+
+<script src="App/Services/rtrvCustComnDetlService.js"></script>
+
+<script src="App/Services/cacheDataService.js"></script>
+
+<script src="App/Directives/contactDetailsDirective.js"></script>
+
+<script src="App/Directives/personalDetailsDirective.js"></script>
+
+<script src="App/Directives/personalDetailsFormDirective.js"></script>
+
+<script src="App/Services/updtCustComnDetlService.js"></script>
+
+<script src="App/Services/updtCustPrsnDetlService.js"></script>
+
+<script src="App/Services/translationService.js"></script>
+
+</head>
+<body ng-controller="ParentCtrl as vm" ng-init="vm.initialize()">
+	<div ng-include="'header.html'"></div>
+	<div ng-view></div>
+	<div ng-include="'footer.html'" id="footer"></div>
+</body>
+</html>

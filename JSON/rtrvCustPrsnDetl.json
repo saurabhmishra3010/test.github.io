@@ -1,0 +1,54 @@
+{
+"responseInfo": "000",
+"localFields": null,
+"custPrsnDetl": {
+	"custType" : "PFS",
+	"custSeg" : "advance",
+	"dormFlag" : false,
+	"langPrfr" : "en",
+	"custPrsnInfo": {
+		"custNames": [{
+				"lastName": null,
+				"titl": null,
+				"firstName": null,
+				"init": null,
+				"fullName": "Ben Roughead",
+				"locale": null
+			}],
+			"dateofBirth" : "1981-07-16",
+			"ctryBrthCode" : null,
+			"gender" : null,
+			"maritalStat" : "single",
+			"educLvl" : "secondary",
+			"numOfDpndt" : 0,
+			"ctryofRes" : null,
+			"multNationalityExists" : null,
+			"nationalities" : null,
+			"GrossAnnlSal" : null,
+			"grosAnnlSalUpdDt" : null,
+			"resTypCode" : null,
+			"homeOwnrStatCde" : null,
+			"PropVal" : null
+	},
+	"custCntacDetl" : {
+			"cntacAddr" : [{
+				"purp" : "P1",
+				"ownerDetails" : {
+					"ownerId" : null,
+					"ownerNames" : "Ben Roughead"
+				},
+				"addressDtl" : {
+					"addrFrmtTyp" : null,
+					"street1" : "19 Storrs Hall Road",
+					"street2" : "Walkley Bank",
+					"street3" : "Walkley",
+					"city" : "Sheffield",
+					"prov" : "South Yorkshire",
+					"postalCde" : "S6 5AW",
+					"ctryCde" : null,
+					"street4" : "Street 4"
+				}			
+			}]
+			}
+}
+}

@@ -1,0 +1,12 @@
+<div class="container" ng-init="vm.initialize()">
+	<div class="jumbotron">
+		<h3>{{vm.translatedData.personalDetailsTitle}}</h3>
+		<div class="well well-sm">
+			<label for="fullname">{{vm.translatedData.Name}} : </label> <span id="fullname" >{{vm.details.custPrsnDetl.custPrsnInfo.custNames[0].fullName}}</span>
+		</div>
+		<div class="well well-sm">
+			<label for="dob">{{vm.translatedData.DOB}} : </label> <span id="dob" >{{vm.details.custPrsnDetl.custPrsnInfo.dateofBirth}}</span>
+		</div>
+		<button type="button" class="btn btn-primary"><a href="#persdetform" style="color:white;">{{vm.translatedData.updateDetailsTitle}}</a></button>
+	</div>
+</div>
